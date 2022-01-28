@@ -3902,7 +3902,7 @@ a {
   z-index: 99999;
 }
 #header .logo {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   float: left;
 }
 #header .logo a {
@@ -4390,3 +4390,28 @@ a {
 #mensaje h2, #mensaje p{color:#fff !important;}
 .ocultar{ display:none; }
 #hero .hero-form .error{ color:#FF0004; }
+
+
+.drop-button {
+  /* background-color: #f00; */
+  color: #fff;
+  padding: 0 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(80deg, #f00, #ff9393, #f00);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  border-radius: 10px;
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
